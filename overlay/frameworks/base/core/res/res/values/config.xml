@@ -9,12 +9,20 @@
      -->
     <bool name="config_unplugTurnsOnScreen">false</bool>
 
+    <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
+    <bool name="config_dozePulsePickup">false</bool>
+
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">1</integer>
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">false</bool>
 
-    <bool name="config_dreamsSupported">false</bool>
+    <!-- Flag specifying whether VoLTE is available on device -->
+    <bool name="config_device_volte_available">false</bool>
+
+    <!-- Flag specifying whether VoLTE is available on device -->
+    <bool name="config_device_vt_available">false</bool>
+
     <!-- <bool name="config_dreamsSupported">false</bool>
     <string name="config_dozeComponent" translatable="false"></string>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
